@@ -1,0 +1,12 @@
+{
+  "http-request": {
+    "path": "/find-user",
+    "method": "GET",
+    "query": {
+      "id": "invalid"
+    }
+  },
+  "http-response": {
+    "status": 400
+  }
+}
